@@ -166,6 +166,8 @@ p {
 }
 header .header-inner p span {
     display: block;
+    font-size: 17px;
+        padding: 15px 10px;
 }
 .pb-275 {
     margin-bottom: 30px !important;
@@ -203,9 +205,15 @@ header .header-inner p span {
 .common-ul li svg {
     font-size: 22px;
 }
-.now-you-can-text p {
+.now-you-can-text p,.now-you-can-text p strong {
     font-size: 24px;
     line-height: 1.3em;
+}
+.now-you-can-text p strong{
+    font-weight: 800;
+}
+.yes-i-wnat img.img1 {
+    width: 100%;
 }
 .like-mary .like-mary-inner .box p {
     font-size: 18px;
@@ -220,11 +228,13 @@ header .header-inner p span {
     left: 15px;
     top: 50%;
     transform: translateY(-50%);
+    width: 28px;
 }
 .wrapper005 .bonus-box span.d-inline-block img:last-child{
 	right: 15px;
     top: 50%;
     transform: translateY(-50%);
+    width: 28px;
 }
 .wrapper005 .bonus-box span.d-inline-block {
     padding: 10px 45px;

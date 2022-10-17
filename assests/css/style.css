@@ -30,11 +30,12 @@ a:hover{
 small{
     display: inline-block;
 }
-p{
-   line-height: 1.5em;
+p {
+    line-height: 1.5em;
     font-size: 19px;
     line-height: 1.5em;
     margin-bottom: 19px;
+    font-weight: 400;
 }
 ul{
     margin: 0;
@@ -503,15 +504,19 @@ footer  {}
 }
 /* now-you-can-text start */
 .now-you-can-text{}
-.now-you-can-text p{
-        font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+.now-you-can-text p {
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1.3em;
     margin-bottom: 10px!important;
     text-align: center;
+    color: #000;
 }
-.now-you-can-text p:last-child{}
+.now-you-can-text p strong{
+    font-size: 30px;
+    font-weight: 700;
+}
 /* now-you-can-text end */
 /* bonus-box start */
 /* bonus-box e */
@@ -548,4 +553,15 @@ footer  {}
     color: #252222!important;
     font-size: 15px;
  }
+
+
+.img-inner.img-inner002 img{
+    width: 462px !important;
+}
+
+.mb-30{
+    margin-bottom: 30px !important;
+}
+
+
  /* wrapper005 end */
